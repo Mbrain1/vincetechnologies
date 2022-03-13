@@ -1,0 +1,170 @@
+@import "~tailwindcss/base.css";
+@import "~tailwindcss/components.css";
+
+
+
+.btn {
+    @apply  py-2 px-4 rounded-3xl text-[14px];
+}
+
+.btn:hover {
+    @apply opacity-90;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-400;
+}
+
+
+.card {
+    @apply p-5 rounded-md  relative z-20;
+}
+
+:root {
+    --primary-color:  rgba(248, 192, 200, 0.1);
+    --accent-color: rgba(46, 48, 129, 1);
+    --blue-1:  #31AACE;
+    --gray-01: #d0d0d0;
+    --gray-02: #e7e7e7;
+    --gray-03: #f7f7f7;
+    --gray-04: #2D2D2D;
+    --gray-05: #212121;
+    --black-01: #000000;
+    --blue-2:  #021283;
+}
+
+.container {
+    @apply md:px-10 px-3;
+}
+
+
+.service {
+    filter: drop-shadow(0px 40px 40px rgba(0, 0, 0, 0.07));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+body {
+    font-family: Poppins;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color:  #212121;
+}
+
+body,html {
+    @apply scroll-smooth;
+}
+
+.pbc {
+    background-color: var(--primary-color);
+}
+
+.pc {
+    color: var(--primary-color);
+}
+
+.abc {
+    background-color: var(--accent-color);
+}
+
+.ac {
+     color: var(--accent-color);
+}
+
+.blue-1-bg {
+    background-color: var(--blue-1);
+}
+
+.blue-1 {
+    color: var(--blue-1);
+}
+
+.gray-2-bg {
+    background-color: var(--gray-02);
+}
+
+.gray-2 {
+    color: var(--gray-02);
+}
+
+
+.gray-3-bg {
+    background-color: var(--gray-03);
+}
+
+.gray-4-bg {
+    background-color: var(--gray-04);
+}
+
+.gray-5-bg {
+    background-color: var(--gray-05);
+}
+
+.gray-6-bg {
+    background-color: var(--gray-06);
+}
+
+.gray-3 {
+    color: var(--gray-03);
+}
+
+
+.blue-2-bg {
+    background-color: var(--blue-2);
+}
+
+.blue-2 {
+    color: var(--blue-2);
+}
+
+.gray-1-bg {
+    background-color: var(--gray-01);
+}
+
+.gray-1 {
+    color: var(--gray-01);
+}
+
+
+footer p {
+    font-weight: 500;
+}
+
+footer hr {
+ color:  var(--accent-color);
+}
+
+footer a {
+    color:  #666;
+    font-weight: 400;
+}
+
+.why-us {
+    background-color: rgba(49, 170, 206, 0.1);
+}
+
+.nav-1 ul > li {
+    margin: 0 10px;
+}
+
+
+form .form-control {
+    @apply w-full py-3 px-4 border rounded-lg  border-gray-300 text-[14px];
+}
+
+form .form-control:focus {
+    @apply outline-0;
+} 
+
+
+.mySwiper .swiper-slide.swiper-slide-active {
+      border: 1px solid var(--blue-2) !important;
+}
+
+
+
+@import "~tailwindcss/utilities.css";
